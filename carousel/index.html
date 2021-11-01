@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Style -->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .Centered {
+        text-align: center;
+      }
+
+      .Background-Main {
+        background-color: black;
+      }
+
+      .White-Background {
+        background-color: snow;
+        height: 400px; ;
+      }
+
+      .Casa-Brown {
+        height: 250px;
+        width: auto;
+        background-color: rgb(145, 82, 19);
+      }
+
+      .Casa-Centered{
+        text-align: center;
+        padding-top: 100px;
+        color: snow;
+        font-size: large;
+      
+      }
+
+      .TR-Background{
+        background-color: black;
+      }
+
+      .AP-Background{
+        background-color: crimson;
+      }
+
+      .EL-Cam-Background {
+        background-color: lemonchiffon;
+      }
+
+      .Shade-Background {
+        background-color: lightskyblue;
+      }
+
+      .Yellow {
+        color: yellow;
+      }
+
+      .White {
+        color: white;
+      }
+
+      .Title {
+        padding: 20px;
+      }
+
+    </style>
+<!-- Style END -->
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+ <!-- Header -->   
+<header>
+  <!-- Navigation --> 
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Top 5</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#casa">Casa Nueva</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#avalanche">Avalanche Pizza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#texas">Texas Roadhouse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#el camino">El Camino</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#shade">Shade Restaurants</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation END--> 
+</header>
+<!-- Header END -->
+
+<!-- Main -->
+<main>
+<!-- Landing Page -->
+
+<h1 class="Title">My Top 5 Restaurants in Athens Ohio</h1>
+  <div class="Centered">
+    <img src="images/athens_panorama.jpg" class="img-fluid" alt="athens panorama">
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+        <h5 style="padding:90px;">Hi my name is Owen Zeiler. I like art, music, video games, good times and good people. I have an Associates Degree in Graphic Design from Broward College. I decided to go back to school to get my Bachelors Degree and am now a Bobcat at Ohio University. These are my favorite places to eat in Athens.</h5>
+    </div> 
+    <div class="col-sm-3">
+      <img src="images/IMG_1114.jpeg" style="padding: 20px;" class="img-fluid" alt="Owen"> 
+    </div> 
+  </div>
+</div>
+
+
+
+<!-- Landing Page END-->
+
+<!-- Casa Nueva -->
+<section id="casa"></section>
+<div class="Centered">
+    <img src="images/Casa_Mural_edit.jpg" class="img-fluid"  alt="Colorful Mural">
+</div>
+  
+
+    <div class="Casa-Brown">
+      <div class="row">
+            <div class="col-sm-4">
+                <img src="images/Casa_Logo.png"  class="img-fluid" height="250"  width="250" alt="Casa Logo">
+            </div> 
+            <div class="col-sm-4">
+              <div class="Casa-Centered">
+                <p>Proudly serving local food, drink, music, and art in Appalachian Ohio</p> 
+              </div>
+            </div> 
+      </div>
+    </div>
+ 
+ 
+  <div class="container"> 
+    <br>
+    <br>
+      <h4 class="Centered">Build your Own</h4>
+      <h6 class="Centered">Burrito,Chimichanga, Enchilada, Quesadilla, Taco</h6>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/casa_food1.jpg"  class="img-fluid"  height="300" width="300" style="margin-left: 70px;"  alt="sushi">
+        </div>
+        <br>
+        <div class="col-sm-4">
+          <img src="images/casa_food2.jpg"  class="img-fluid" height="300" width="300" style="margin-left: 70px;" alt="sushi">
+        </div>
+        <br>
+        <div class="col-sm-4">
+          <img src="images/casa_food3.jpg"  class="img-fluid" height="300" width="300" style="margin-left: 70px;"  alt="sushi">
+        </div>
+      </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <img src="images/Farm_fresh2.jpg" class="img-fluid">
+<div class="TR-Background">
+<div class="container">
+  <br>
+    <br>
+    <br>
+<div class="White">
+  <br>
+  <br>
+    <div class="row">
+      <div class="col-sm-8">
+       <img src="images/bar_tender.jpg"  class="img-fluid"  alt="sushi">
+      </div>
+      <br>
+      <div class="col-sm-4">
+       <img src="images/mixed_drinks_small.jpg"  class="img-fluid" alt="sushi">
+      </div>
+    </div>
+
+    <h4>Enjoy Casa Nueva's Night Life</h4>
+
+    <br>
+   <div class="row">
+      <div class="col-sm-6">
+        <img src="images/band.jpg"  class="img-fluid"  alt="sushi">
+        <p>Local Bands</p>
+     </div>
+     <br>
+      <div class="col-sm-6">
+         <img src="images/art_show.jpg"  class="img-fluid" alt="sushi">
+         <p>Art Shows</p>
+     </div>
+    </div>
+    <br>
+    <br>
+    <br>
+</div>
+</div>
+</div>
+<!-- Casa Nueva END-->
+
+<!-- Avalanche Pizza -->
+<section id="avalanche"></section>
+<div class="AP-Background">
+<div class="Yellow">
+  <div class="row featurette">
+    <div class="col-md-3 order-md-1">
+      <img src="images/AP_logo.jpg" class="img-fluid" style="padding: 30px;" alt="sushi">
+    </div>
+    <div class="col-md-6 order-md-2">
+      <h2 class="featurette-heading" style="margin-left: 20px;">Voted Best Pizza in the USA by the Food Network!</h2>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="AP-Background">
+<div class="Yellow">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="Yellow">
+        <img src="images/AP_Chupacabra.png" class="img-fluid" style="margin-left:  20px; alt="sushi">
+        <h5 style="margin-left:  20px;">The Chicken Chupacabra</h5>
+        <p style="margin-left: 20px;">We start it off with a half pound of fresh melting mozzarella and provolone atop our awesome marinara, followed by golden roasted chicken breast, smothered with crispy bacon, marinated artichoke hearts, and melting cheddar cheese.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="Yellow">
+        <img src="images/AP_Ranch2.png" class="img-fluid" style="margin-left: 20px;" alt="sushi">
+        <h5 style="margin-left:   20px;">The Avalanche Ranch</h5>
+        <p style="margin-left: 20px;">Our Secret Marinara Sauce with Real Roasted Chicken Breast, Meaty Italian Sausage and Premium Pepperoni topped with our Creamy Ranch Dressing and a Half Pound of Melting Mozzarella and Provolone!</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="Yellow">
+        <img src="images/AP_Ingredients2.jpg" class="img-fluid" style="margin-left: 20px;" alt="sushi">
+        <h5 style="margin-left:  20px;">Build Your Own Pizza Pie</h5>
+        <p style="margin-left: 20px;">With over 50 toppings, you have so many possibilities to build your own pizza pie.</p>
+      </div>
+    </div>
+  </div>
+<br>
+</div> 
+</div>
+<!-- Avalanche Pizza END-->
+
+<!-- Texas Roadhouse -->
+<section id="texas"></section>
+<div class="TR-Background">
+  <br>
+  <div class="White">
+        <div class="row featurette">
+          <div class="col-md-3 order-md-1">
+            <img src="images/Texas_Roadhouse_Logo.svg.png" class="img-fluid" style="padding: 20px;" alt="sushi">
+          </div>
+          <div class="col-md-9 order-md-2">
+            <h4 style="padding: 20px; padding-top: 80px;">At Texas Roadhouse we’re famous for our Hand-Cut Steaks, Fall-Off-The-Bone Ribs, Made-From-Scratch Sides, Ice-Cold Beer and our irresistible Fresh-Baked Bread.</h4>
+          </div>
+        </div>
+  </div>
+</div>
+  
+    <div class="TR-Background">
+      <div class="White">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="images/TR_Steak.png" class="img-fluid" style="padding: 20px; alt="sushi">
+            <h5 style="padding-left:  20px;">USDA Choice Sirloin</h5>
+            <p style="padding-left: 20px;">Most popular because they are hearty, flavorful and a great value. Served with your choice of two sides.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="images/TR_Salmon.png" class="img-fluid" style="padding: 20px; alt="sushi">
+            <h5 style="padding-left:  20px;">Grilled Salmon</h5>
+            <p style="padding-left:  20px;">8 oz. Norwegian fillet salmon steak, grilled moist and tender and topped with our special lemon pepper butter.</p>
+          </div>
+          <div class="col-sm-4">
+              <img src="images/TR_Bread2.jpg" class="img-fluid" style="padding:  20px;" alt="sushi">
+              <h5 style="padding-left:  20px;">Roadhouse Rolls</h5>
+              <p style="padding-left:  20px;">These rolls are incredibly fluffy, buttery, super tender, and slathered in a honey cinnamon butter.</p>
+              <p style="padding-left:  20px;">Warning every table gets these gratis. It can be tempting to fill up on them before your meal arrives. I recommend saving them for desert.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+    </div>
+    
+  <!-- Texas Roadhouse END-->
+
+<!-- El Camino -->
+<section id="el camino"></section>
+<div class="EL-Cam-Background">
+    <br>
+    <div class="row featurette">
+      <div class="col-md-3 order-md-1">
+        <img src="images/el_cam_logo.jpg" class="img-fluid" style="padding: 30px;" alt="sushi">
+      </div>
+      <div class="col-md-9 order-md-2">
+        <h2 class="featurette-heading">Come join us for flavorful Mexican Cuisine and a nice friendly atmosphere.</h2>
+      </div>
+    </div>
+</div>
+
+  
+  <div class="EL-Cam-Background">
+    <div class="row">
+      <div class="col-sm-4">
+          <img src="images/EL_CAM_Burrito.jpg" class="img-fluid" style="margin-left:  20px; alt="sushi">
+          <h5 style="margin-left:  20px;">Burrito Supremo</h5>
+          <p style="margin-left: 20px;">One big flour tortilla with beef or chicken, rice beans, sour cream and guacamole inside. Topped with melted cheese.</p>
+      </div>
+      <div class="col-sm-4">
+          <img src="images/EL_CAM_Special.png" class="img-fluid" style="margin-left: 20px;" alt="sushi">
+          <h5 style="margin-left:   20px;">Lulu's Special Dish</h5>
+          <p style="margin-left: 20px;">Half of a pineapple with grilled chicken, bacon, onions, bell peppers, tomatoes, cheeseand pineapple. Served with rice, beans, sour cream, and guacamole salad.</p>
+      </div>
+      <div class="col-sm-4">
+          <img src="images/EL_CAM_BYOB2.jpg" class="img-fluid" style="margin-left: 20px;" alt="sushi">
+          <h5 style="margin-left:  20px;">BYOB</h5>
+          <p style="margin-left: 20px;">They don’t have a liquor license but feel free to bring your own beer.</p>
+      </div>
+    </div>
+  <br>
+  </div> 
+  </div>
+<!-- El Camino END-->
+
+<!-- Shade-->
+<section id="shade"></section>
+<div class="Shade-Background">
+  <div class="row featurette">
+    <div class="col-md-4 order-md-1">
+      <img src="images/Shade-logo.jpg" class="img-fluid" style="padding: 20px;" alt="sushi">
+    </div>
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading">Where you arrive a stranger and come back as a friend!</h2>
+      <p class="lead">I've only been here a few times but I recomend the pizza.</p>
+    </div>
+    <br>
+  </div>
+</div>
+
+<div class="Shade-Background">
+  <div class="row">
+      <div class="col-sm-5">
+      </div>
+      <div class="col-sm-4">
+        <img src="images/Shade_pizza2.png" class="img-fluid"  alt="sushi">
+      </div>
+      <div class="col-sm-3">
+        <h5 style="padding-top: 20px;">The Abominable Snowman</h5>
+        <p style="padding-bottom: 20px;">Okay, this has nothing to do with the pizza, he’s our friend. Honey barbq, pepperoni, blackened chicken, bacon, cheese, and Cheddar.</p>
+      </div>
+  </div>
+<br>
+<br>
+<br>
+</div>
+<!-- Shade END-->
+
+<hr class="featurette-divider">
+
+<!-- Map -->
+<h5 style="text-align: center;">Athens Top 5 Map</h5>
+<br>
+  <img src="images/Athens_Map.png" class="img-fluid"  alt="sushi">
+
+<!-- Map END-->
+
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  
+    
+
+    
+
+
+
+  <!-- FOOTER -->
+  
+  <footer class="container"> 
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p style="margin-top: 50px;">Student Project by Owen Zeiler</p>
+  </footer>
+  <!-- FOOTER END -->
+</main>
+<!-- Main END -->
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
